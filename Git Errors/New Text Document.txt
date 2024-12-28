@@ -1,0 +1,12 @@
+Now move your frontend files (excluding the frontend folder itself) into the new folder. You can use the mv command:
+bash
+Copy code
+mv * frontend/       # Moves all files from the current directory to the 'frontend' folder
+If there are hidden files (like .gitignore, .env, etc.), you can use the following command:
+
+bash
+Copy code
+mv .* frontend/      # Moves hidden files to the 'frontend' folder
+This will move all files into the frontend folder, so the folder will now contain your entire frontend code.
+
+(copy .git hidden folder where you want to make it a repository)
